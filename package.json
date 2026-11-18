@@ -1,6 +1,6 @@
 {
   "name": "@local/dsh-thinking-level-zh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "description": "Chinese display names for model reasoning effort levels, with an editable level-to-label mapping in Settings.",
@@ -21,7 +21,9 @@
     "@deepseek-ai/schemastery": "3.19.0"
   },
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "platform": "web",
       "immediately": true,
